@@ -7,7 +7,7 @@
    ============================================================ */
 :root {
     /* Logo */
-    --logo-image: url('https://s41.ax1x.com/2026/08/03/pmImSC8.jpg');
+    --logo-image: url('https://skb-wiki-cn.wikidot.com/local--files/start/skb');
     /* Logo尺寸 */
     --header-logo-size: 100px;--header-logo-size：100px;
     /* 增加页眉高度，防止大图标被切 */
