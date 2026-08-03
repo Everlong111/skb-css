@@ -7,13 +7,13 @@
    ============================================================ */
 :root {
     /* Logo */
-    --logo-image: url("https://skb-wiki-cn.wikidot.com/local--files/start/skb");
+    --logo-image: url("https://s41.ax1x.com/2026/08/03/pmImSC8.jpg"“https://s41.ax1x.com/2026/08/03/pmImSC8.jpg”“http”);
     /* Logo尺寸 */
-    --header-logo-size: 100px;
+    --header-logo-size: 100px;--header-logo-size：100px;
     /* 增加页眉高度，防止大图标被切 */
-    --header-height-on-desktop: 160px;
-    --bright-accent: 0, 120, 215;
-    --medium-accent: 0, 70, 150;
+    --header-height-on-desktop: 160px;--header-height-on-desktop：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;
+    --bright-accent: 0, 120, 215;--明亮强调：0, 120, 215;
+    --medium-accent: 0, 70, 150;--中等强调：0, 70, 150;
     --dark-accent: 0, 30, 80;
     --header-gradient-color: var(--medium-accent);
     /* 字体变量整合在此 */
