@@ -7,14 +7,13 @@
    ============================================================ */
 :root {
     /* Logo */
-    --logo-image: url(https://s41.ax1x.com/2026/07/13/pmsbat0.png
-);
+    --logo-image: url("https://skb-wiki-cn.wikidot.com/local--files/start/skb");
     /* Logo尺寸 */
-    --header-logo-size: 100px;--header-logo-size：100px;
+    --header-logo-size: 100px;
     /* 增加页眉高度，防止大图标被切 */
-    --header-height-on-desktop: 160px;--header-height-on-desktop：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;;--桌面端标题高度：160px;
-    --bright-accent: 0, 120, 215;--明亮强调：0, 120, 215;
-    --medium-accent: 0, 70, 150;--中等强调：0, 70, 150;
+    --header-height-on-desktop: 160px;
+    --bright-accent: 0, 120, 215;
+    --medium-accent: 0, 70, 150;
     --dark-accent: 0, 30, 80;
     --header-gradient-color: var(--medium-accent);
     /* 字体变量整合在此 */
@@ -243,20 +242,20 @@
     font-weight: 900;
 }
 
-.UI-font {.UI-字体{
-    font-family: var(--UI-font);字体族: 变量(--UI-字体);
+.UI-font {
+    font-family: var(--UI-font);
 }
 
-.mono-font {.等宽字体{
-    --MONO: 1;—单声道：1;--MONO：1；—单声道：1；
-    --CASL: 0;—CASL：0;--CASL：0；—CASL：0；
-    --CRSV: 0;—CRSV：0;--CRSV：0；—CRSV：0；--CRSV：0；—CRSV：0；--CRSV：0；—CRSV：0；
-    font-family: var(--mono-font);字体族: 变量(--等宽字体);字体族: var(--mono-font);字体族: 变量(--等宽字体);
+.mono-font {
+    --MONO: 1;
+    --CASL: 0;
+    --CRSV: 0;
+    font-family: var(--mono-font);
 }
 
 /* ============================================================
    13. 全局字体（现在能正常生效了）
    ============================================================ */
-body, #page-content {主体，#页面内容{
-    font-family: var(--mono-font);字体族: 变量(--等宽字体);字体族: var(字体族: var(--mono-font);字体族: 变量(--等宽字体);字体族: var(--mono-font);字体族: 变量(--等宽字体);
+body, #page-content {
+    font-family: var(--mono-font);
 }
